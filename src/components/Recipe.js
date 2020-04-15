@@ -34,11 +34,10 @@ class Recipe extends Component {
 	}
 
 	render() {
-		const { thumbnail, title, href, ingredients, keyIndex } = this.props
+		const { thumbnail, title, href, ingredients } = this.props
 
 		return (
-			<li key={keyIndex}
-				className="Recipe-item">
+			<li className="Recipe-item">
 				<div className="Recipe-basic-info">
 					<img src={thumbnail || tmpThumbnail} 
 						className="Recipe-thumbnail" 
@@ -74,7 +73,6 @@ Recipe.propTypes = {
 	title: PropTypes.string.isRequired,
 	href: PropTypes.string.isRequired,
 	ingredients: PropTypes.string.isRequired,
-	keyIndex: PropTypes.number.isRequired,
 }
 
 export default Recipe;

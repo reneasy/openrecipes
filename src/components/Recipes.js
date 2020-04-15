@@ -23,7 +23,7 @@ class Recipes extends Component {
   }
 
   componentDidMount() {
-    fetch(PROXY_URL + RECIPE_API)
+    fetch('/api')
       .then(response => response.json())
       .then(data => this.setState({recipes: data.results, isSearching: false}))
       .catch(error => console.log(error));
