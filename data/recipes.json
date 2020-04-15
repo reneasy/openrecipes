@@ -1,0 +1,31 @@
+{
+  "title": "Recipe Puppy",
+  "version": 0.1,
+  "href": "http://www.recipepuppy.com/",
+  "results": [
+    {
+      "title": "Vegetable-Pasta Oven Omelet",
+      "href": "http://find.myrecipes.com/recipes/recipefinder.dyn?action=displayRecipe&recipe_id=520763",
+      "ingredients": "tomato, onions, red pepper, garlic, olive oil, zucchini, cream cheese, vermicelli, eggs, parmesan cheese, milk, italian seasoning, salt, black pepper",
+      "thumbnail": "http://img.recipepuppy.com/560556.jpg"
+    },
+    {
+      "title": "Roasted Pepper and Bacon Omelet",
+      "href": "http://www.bigoven.com/43919-Roasted-Pepper-and-Bacon-Omelet-recipe.html",
+      "ingredients": "eggs, salt, black pepper, butter, black pepper, bacon, onions, garlic, roasted red peppers, oregano, black pepper",
+      "thumbnail": ""
+    },
+    {
+      "title": "\nBroccoli Oven Omelet Recipe\n\n",
+      "href": "http://cookeatshare.com/recipes/broccoli-oven-omelet-92851",
+      "ingredients": "eggs, broccoli, onions, parmesan cheese, lowfat milk, salt, basil, garlic, tomato, parmesan cheese",
+      "thumbnail": ""
+    },
+    {
+      "title": "Onion and Fresh Herb Omelet with Mixed Greens",
+      "href": "http://find.myrecipes.com/recipes/recipefinder.dyn?action=displayRecipe&recipe_id=1622444",
+      "ingredients": "egg substitute, milk, parsley, thyme, salt, black pepper, eggs, flour, nonstick cooking spray, onions, garlic, salad greens, salad greens, red wine vinegar, olive oil, goat cheese, almonds",
+      "thumbnail": "http://img.recipepuppy.com/514820.jpg"
+    }
+  ]
+}

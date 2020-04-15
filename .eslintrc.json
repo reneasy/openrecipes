@@ -1,0 +1,45 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true,
+        "amd": true 
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:mocha/recommended"
+    ],
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly",
+        "expect": true,
+        "describe": true,
+        "sinon": true,
+        "it": true,
+        "mount": true,
+        "shallow": true,
+        "beforeEach": true,
+        "afterEach": true,
+        "xit": true
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "mocha"
+    ],
+    "rules": {
+        "mocha/no-mocha-arrows": "off"
+    },
+    "settings": {
+        "react": {
+            "version": "latest" // React version. "detect" automatically picks the version you have installed.
+        }
+    }
+}
