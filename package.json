@@ -52,7 +52,7 @@
     "express-pino-logger": "^4.0.0",
     "ignore-styles": "^5.0.1",
     "isomorphic-fetch": "^2.2.1",
-    "jsdom": "^16.2.2",
+    "jsdom": "^16.5.0",
     "mocha": "^7.1.1",
     "node-env-run": "^3.0.2",
     "nodemon": "^2.0.3",
